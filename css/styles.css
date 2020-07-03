@@ -42,3 +42,15 @@ a[href=".pdf"]{
 img[alt=""]{
 	border:1px solid red;
 }
+
+
+/* Pseudo elementos */
+p.f-line::first-line{
+	font-weight: bold;
+}
+
+p::first-letter{
+	text-transform: uppercase;
+	color: tomato;
+	font-weight: bold;
+}
