@@ -9,5 +9,36 @@
 	border-color: chocolate; */
 
 	padding: 10px;
-	margin: 10px;
+	
+
+	/* Shorcut */
+
+	/* General hacia todos lados */
+	/* margin: 10px; */
+
+	/* Y X */
+	margin: 30px 15px;  
+	/* padding: 0 3px 0 0; */
+
+	/* padding-right: 10px; */
+}
+
+/* Selectores Hijos */
+p > a{
+	color: tomato
+}
+
+/* Selector adyacente */
+h5 + h6{
+	color: blueviolet;
+}
+
+/* Selector atributos */
+a[href=".pdf"]{
+	text-decoration: none;
+	color: orange;
+}
+
+img[alt=""]{
+	border:1px solid red;
 }
