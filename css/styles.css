@@ -54,3 +54,20 @@ p::first-letter{
 	color: tomato;
 	font-weight: bold;
 }
+
+/* Pseudo clases */
+.btn{
+	color: tomato;
+	padding: 5px;
+	font-size:12px;
+	border: 1px solid tomato;
+}
+
+.btn:hover{
+	background-color: tomato;
+	color: white;
+}
+
+.btn:active{
+	background-color:#f13918;
+}
